@@ -1,0 +1,6 @@
+<app-search></app-search>
+<h1 class="text-center">Trending Gifs</h1>
+
+<div *ngFor="let k of giphy">
+  <img src="{{k.images.original.url}}">
+</div>
